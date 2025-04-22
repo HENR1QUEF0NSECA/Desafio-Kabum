@@ -1,0 +1,127 @@
+li {
+    list-style: none;
+}
+
+
+:root {
+    --bg-white: #ffffff;
+    --highlight-orange: #ff6600;
+    --header-blue: #0057b7;
+    --text-dark: #333333;
+    --light-gray: #f9f9f9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-white);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+}
+
+.ninja-container {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.ninja-title {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    color: var(--header-blue);
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.ninja-subtitle {
+    font-size: 1.25rem;
+    color: var(--highlight-orange);
+    margin-bottom: 2rem;
+}
+
+.bonus-section {
+    background-color: var(--light-gray);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    margin: auto;
+}
+
+.bonus-title {
+    color: var(--header-blue);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.bonus-description {
+    color: var(--text-dark);
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.bonus-list {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.bonus-item {
+    background-color: var(--bg-white);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid var(--highlight-orange);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.bonus-item:hover {
+    background-color: #eee;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.bonus-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: var(--highlight-orange);
+    transition: transform 0.3s ease;
+}
+
+.bonus-item:hover .bonus-icon i {
+    transform: rotate(10deg) scale(1.1);
+}
+
+.bonus-text {
+    flex-grow: 1;
+    color: var(--text-dark);
+}
+
+.sub-feature-list {
+    list-style: none;
+    padding-left: 1.5rem;
+    color: var(--text-dark);
+}
+
+.sub-feature-list li::before {
+    content: "🔹";
+    margin-right: 5px;
+    color: var(--highlight-orange);
+}
+
+.ninja-btn {
+    background-color: var(--highlight-orange);
+    color: var(--bg-white);
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ninja-btn:hover {
+    box-shadow: 0 0 10px var(--highlight-orange), 0 0 20px var(--highlight-orange);
+}
