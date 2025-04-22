@@ -44,7 +44,7 @@
 
     <div class="col-12">
         <button type="submit" name="cadastrar" class="btn btn-primary">Cadastrar</button>
-        <a href="endereco/index/<?= htmlspecialchars($cliente['id_cliente'] ?? '') ?>" class="btn btn-secondary">Cancelar</a>
+        <a href="/advancedmvc/endereco/index/<?= htmlspecialchars($cliente['id_cliente'] ?? '') ?>" class="btn btn-secondary">Cancelar</a>
     </div>
 </form>
 
