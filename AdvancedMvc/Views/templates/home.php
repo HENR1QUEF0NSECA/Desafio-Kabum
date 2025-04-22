@@ -101,7 +101,7 @@
                 <p class="text-center fst-italic fs-4 my-4">"Código seguro. Sistema eficiente. Clientes sob controle."</p>
                 
                 <div class="text-center mt-4">
-                    <a href="#" class="ninja-btn btn btn-lg px-4 py-2">
+                    <a href="https://github.com/HENR1QUEF0NSECA/Desafio-Kabum/tree/main" class="ninja-btn btn btn-lg px-4 py-2">
                         <i class="fas fa-search me-2"></i> Inspecionar os Códigos Secretos
                     </a>
                     <p class="mt-2"><small>O <strong>README</strong> contém todos os passos para decifrar este projeto.</small></p>
