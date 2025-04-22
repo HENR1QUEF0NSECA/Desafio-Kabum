@@ -27,7 +27,8 @@
     </div>
 
     <div class="col-12">
-        <input type="submit" name="cadastrar" value="Cadastrar" class="btn btn-primary">
+        <input type="submit" name="cadastrar" value="Cadastrar" class="btn btn-success">
+        <a href="/advancedmvc/cliente" class="btn btn-secondary">Cancelar</a>
     </div>
 </form>
 
